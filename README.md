@@ -1,3 +1,3 @@
 # Waste-Calculation
 
-Link for this website is -> 
+Link for this website is -> https://akash8220.github.io/Waste-Calculation/waste%20calculation.html
