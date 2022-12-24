@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://images.pexels.com/photos/1408218/pexels-photo-1408218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-color: #000;
+    color: whitesmoke;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+#op{
+    position: sticky;
+    position: -webkit-sticky;
+    opacity: 1;
+    background-color: rgba(0,0,0, 0.5);
+    width: 15%;
+    height: 100vh;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    margin-top:-400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;   
+}
+#he{
+    margin-top: -60px;
+    font-size: 25px;
+}
+#he2{
+    margin-top: 100px;
+}
+#fact{
+     padding: 20px; 
+     border: 1px solid lightgray; 
+     margin: 20px;
+     background-color: rgba(0,0,0, 0.5);
+}
+#water_waste{
+    background-image: url("https://images.pexels.com/photos/1408218/pexels-photo-1408218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#homes{
+    margin-top: 10px;
+}
+#drips{
+    margin-top: 10px;
+}
+#taps{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+}
+#wa{
+    margin-bottom: 810px;
+    font-size: 25px;
+}
+#input{
+    margin-top: -520px;
+}
+#lin{
+    margin-top: 60px;
+}
