@@ -1,0 +1,37 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Waste calculation</title>
+		<link rel="stylesheet" type="text/css" href="waste calculation.css">
+		<script type="text/javascript" src="waste calculation1.js"></script>
+		<script type="text/javascript" src="waste calculation.js"></script>
+	</head>
+	<body onload="facts()">
+	<div id="op">
+		<a href="#home">Home</a>
+		<a href="#water_waste">Water Waste</a>
+		<a href="#non_biodegradable_waste">Non Biodegradable Waste</a>
+		<a href="#biodegradable_waste">Biodegradable Waste</a>
+	</div>
+	<div id="home">
+		<div id="he">WASTE CALCULATION</div>
+		<p id="he2">This is bring awareness to the people where lots of waste goes within our household itself</p>
+		<p id="fact"></p>
+	</div>
+	<div id="water_waste">
+		<div id="wa">Water Drip Calculation</div>
+		<div id="input">
+			Number of homes:<input type="number" name="homes" id="homes"></br>
+			Number of faucets damaged(in each):<input type="number" name="taps" id="taps"></br>
+			Number of drips per minute(assumed):<input type="number" id="drips"></br>
+		</div>
+		<button onclick="water()">Get it!</button>
+		<p id="sol"></p>
+		<p id="sol1"></p>
+		<div id="lin">The best services provided by <a href="https://www.horizonservices.com/plumbing-services/">Horizon services</a></div>
+	</div>
+    </body>
+	</html>
